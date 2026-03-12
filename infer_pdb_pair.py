@@ -490,7 +490,7 @@ def compute_esm2_bundle(
 
 
 def load_checkpoint(path: str, device: torch.device) -> Dict[str, torch.Tensor]:
-    ckpt = torch.load(path, map_location=device)
+    ckpt = torch.load(path, map_location=device, weights_only=False)
     if isinstance(ckpt, dict) and "model_state_dict" in ckpt:
         return ckpt["model_state_dict"]
     if isinstance(ckpt, dict) and all(isinstance(k, str) for k in ckpt.keys()):
