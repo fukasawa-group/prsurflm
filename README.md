@@ -1,4 +1,4 @@
-# Pr-* (working title)
+# ESpma
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)]()
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-ee4c2c.svg)]()
@@ -43,7 +43,7 @@ This repository provides:
 
 ### Open in Colab
 
-You can try the current **Pr-*** implementation directly in Google Colab without local installation.
+You can try the current **ESpma*** implementation directly in Google Colab without local installation.
 Two notebook variants are provided:
 
 #### Integrated variant
@@ -79,5 +79,5 @@ This notebook includes:
 Clone the repository:
 
 ```bash
-git clone https://github.com/fukasawa-group/prsurflm.git
-cd prsurflm
+git clone https://github.com/fukasawa-group/espma.git
+cd espma
