@@ -46,11 +46,11 @@ This repository provides:
 You can try the current ***ESpma*** implementation directly in Google Colab without local installation.
 Two notebook variants are provided:
 
-#### Integrated variant
+#### ***ESpma*** (Lightweight variant)
 
-Sequence and structure-aware version.
+Lightweight version for simpler evaluation and faster testing.
 
-[![Open Integrated Variant In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fukasawa-group/prsurflm/blob/main/notebooks/inference.ipynb)
+[![Open Lightweight Variant In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fukasawa-group/prsurflm/blob/main/notebooks/inference_lr.ipynb)
 
 This notebook includes:
 
@@ -59,11 +59,11 @@ This notebook includes:
 - pretrained model inference
 - output visualization is planned for a future update
 
-#### Lightweight variant
+#### ***ESpma<sub>pc</sub>*** (Integrated variant)
 
-Lightweight version for simpler evaluation and faster testing.
+Sequence and structure-aware version.
 
-[![Open Lightweight Variant In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fukasawa-group/prsurflm/blob/main/notebooks/inference_lr.ipynb)
+[![Open Integrated Variant In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fukasawa-group/prsurflm/blob/main/notebooks/inference.ipynb)
 
 This notebook includes:
 
